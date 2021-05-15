@@ -16,7 +16,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "vasukarun-sf-tfstate"
+    bucket = "PROJECT_ID-tfstate"
     prefix = "jenkins"
   }
 }
